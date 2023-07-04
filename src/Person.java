@@ -3,6 +3,11 @@ public class Person {
     private int age;
     private String name;
     private String hobby = "nothing";
+    private String food = "food";
+    
+    public void eat(){
+        System.out.println("Eats: " + food);
+    }
 
     public void status(){
         System.out.println(name + ": " + age + " years old, hobby is " + hobby);
